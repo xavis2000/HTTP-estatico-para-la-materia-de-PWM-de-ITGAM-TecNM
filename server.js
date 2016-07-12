@@ -4,8 +4,8 @@ var http = require("http");
 var server = http.createServer(function(req, res){
     //armar la respuesta http
     //armar un encabezado http
-    res.writeHead(200,{
-        "Content-type" :"text/plain",
+    res.writeHead(200,{ 
+        "Content-Type" :"text/plain",
         "server" : "ITGAM@4.2.4"
     });
     //enviamos la respuesta
